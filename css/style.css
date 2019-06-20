@@ -118,10 +118,10 @@ h1, h2, h3, h4, h5,
     box-shadow: none !important; }
 
 .site-section {
-  padding: 1.5em 0; }
+  padding: 3em 0; }
   @media (min-width: 768px) {
     .site-section {
-      padding: 5em 0; } }
+      padding: 1em 0; } }
   .site-section.site-section-sm {
     padding: 2em 0; }
 
@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5,
   border-top: 1px solid #edf0f5 !important; }
 
 .site-footer {
-  padding: 4em 0;
+  padding: 2em 0;
   background: #333333; }
   @media (min-width: 768px) {
     .site-footer {
@@ -640,10 +640,10 @@ h1, h2, h3, h4, h5,
         max-width: 100%; } }
 
 .site-section {
-  padding: 10em 0; }
+  padding: 10em 0 0 5em; }
   @media (max-width: 991.98px) {
     .site-section {
-      padding: 4em 0; } }
+      padding: 1em 0; } }
 
 .cta a span {
   border-color: #007bff;
@@ -725,7 +725,7 @@ h1, h2, h3, h4, h5,
       color: rgba(255, 255, 255, 0.55); }
 
 .section-1 {
-  margin-top: 10rem; }
+  margin-top: 2rem; }
 
 .work-thumb {
   position: relative;
@@ -909,11 +909,11 @@ h1, h2, h3, h4, h5,
     margin-bottom: 1.5rem; }
 
 .service {
-  padding: 4rem;
+  padding: 1em;
   background: #fff; }
   @media (max-width: 991.98px) {
     .service {
-      padding: 2rem; } }
+      padding: 1em; } }
 
 
 .round-border {
@@ -931,3 +931,15 @@ h1, h2, h3, h4, h5,
        -o-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
  }
+ 
+ .credit {
+	 size: 6px;
+	 color:transparent;
+ }
+ 
+ .credit a {
+	 text-decoration:none;
+	color:transparent;
+ }
+ 
+ 
