@@ -1,11 +1,4 @@
-html {
-  box-sizing: border-box;
-  font-family: 'Muli', sans-serif;
-}
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
 
 li {
@@ -13,6 +6,8 @@ li {
 	list-style: none;
 }
 .background {
+	
+  margin-top: 50px;
   padding: 0 25px 25px;
   position: relative;
   width: 100%;
@@ -39,9 +34,9 @@ li {
   }
 }
 
-.container {
+.container-pricing {
   margin: 0 auto;
-  padding: 50px 0 0;
+  padding: 25px 0 0 25px;
   max-width: 960px;
   width: 100%;
 }
@@ -85,8 +80,8 @@ li {
   .pricing-plan {
     border-bottom: none;
     border-right: 1px solid #e1f1ff;
-    flex-basis: 100%;
-    padding: 25px 50px;
+    flex-basis: 75%;
+    padding: 10px 10px;
   }
 
   .pricing-plan:last-child {
@@ -126,7 +121,7 @@ li {
 .pricing-price {
   color: #016FF9;
   display: block;
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 700;
 }
 
@@ -159,6 +154,5 @@ li {
 .itemicon {
 	font-size:5em;
 	color:#60a9ff;
-	padding-bottom: 0.2em;
-	
+	padding-bottom: 0.2em;	
 }
