@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 512 512">
+  <g>
+    <g>
+      <g>
+        <g>
+          <polygon points="451.6,500.5 60.4,500.5 60.4,36.5 133.2,36.5 133.2,57.3 81.2,57.3 81.2,479.7 430.8,479.7 430.8,57.3       377.7,57.3 377.7,36.5 451.6,36.5     "/>
+        </g>
+        <g>
+          <path d="m398.5,103.1h-285l19.8-91.5h245.5l19.7,91.5zm-259-20.8h234.1l-11.4-49.9h-212.3l-10.4,49.9z"/>
+        </g>
+        <g>
+          <g>
+            <path d="m210.2,263.3h-89.5v-95.7h89.5v95.7zm-68.6-20.8h47.9v-54.1h-47.9v54.1z"/>
+          </g>
+          <g>
+            <rect width="132.1" x="248.7" y="205" height="20.8"/>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="m210.2,402.7h-89.5v-95.7h89.5v95.7zm-68.6-20.8h47.9v-54.1h-47.9v54.1z"/>
+          </g>
+          <g>
+            <rect width="132.1" x="248.7" y="344.4" height="20.8"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
