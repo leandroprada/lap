@@ -1,0 +1,37 @@
+
+server {
+
+
+	root /var/www/html/resume;
+
+	index index.html index.php index.htm index.nginx-debian.html;
+
+	server_name resume.leoprada.com.ar www.resume.leoprada.com.ar; 
+
+		location / {
+		try_files $uri $uri/  =404;
+	}
+
+	location ~ \.php$ {
+		include snippets/fastcgi-php.conf;
+		fastcgi_pass unix:/run/php/php7.0-fpm.sock;
+	}
+
+	location ~ /\.ht {
+		deny all;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

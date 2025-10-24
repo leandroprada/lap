@@ -1,0 +1,67 @@
+
+server {
+
+
+	root /var/www/html/eslavonia;
+
+	index index.html index.php index.htm index.nginx-debian.html blog blog.html ;
+
+	server_name eslavonia.leoprada.com.ar www.eslavonia.leoprada.com.ar; 
+
+		location / {
+		try_files $uri $uri/  =404;
+	}
+
+	location ~ \.php$ {
+		include snippets/fastcgi-php.conf;
+		fastcgi_pass unix:/run/php/php7.0-fpm.sock;
+	}
+
+	location ~ /\.ht {
+		deny all;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/eslavonia.leoprada.com.ar/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/eslavonia.leoprada.com.ar/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+
+}
+
+server {
+    if ($host = eslavonia.leoprada.com.ar) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+
+	server_name eslavonia.leoprada.com.ar;
+    listen 80;
+    return 404; # managed by Certbot
+
+
+}

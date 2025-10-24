@@ -1,0 +1,38 @@
+
+server {
+
+
+	root /var/www/html/triniprada;
+
+	index index.html index.php index.htm index.nginx-debian.html;
+
+	server_name triniprada.leoprada.com.ar www.triniprada.leoprada.com.ar; 
+
+		location / {
+		try_files $uri $uri/  =404;
+	}
+
+	location ~ \.php$ {
+		include snippets/fastcgi-php.conf;
+		fastcgi_pass unix:/run/php/php7.0-fpm.sock;
+	}
+
+	location ~ /\.ht {
+		deny all;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

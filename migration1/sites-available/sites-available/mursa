@@ -1,0 +1,37 @@
+
+server {
+
+
+	root /var/www/html/mursa;
+
+	index index.html index.php index.htm;
+
+	server_name mursa.leoprada.com.ar www.mursa.leoprada.com.ar; 
+
+		location / {
+		try_files $uri $uri/  =404;
+	}
+
+	location ~ \.php$ {
+		include snippets/fastcgi-php.conf;
+		fastcgi_pass unix:/run/php/php7.0-fpm.sock;
+	}
+
+	location ~ /\.ht {
+		deny all;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
